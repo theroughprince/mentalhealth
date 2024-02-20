@@ -88,6 +88,11 @@ p{
     .secondBodyContainer{
         width: 98%;
     }
+    
+.cards{
+    margin: 20px 0px 10px 0px;
+    width: 98%;
+}
     .container{
        display: block;
        margin: auto;
