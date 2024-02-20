@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personality Quiz</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./nav.css">
+</head>
+<body>
+  <nav>
+    <ul class="ulist">
+      <a href="Index.html"><li>Home</li></a>
+      <a href="./imp_sites.html"><li>Important Sites</li></a>
+      <a href="./about.html"><li>About us</li></a>
+    </ul>
+  </nav>
+
+  <h2 class="head">SELF TESTING</h2>
+  <div class="quiz-container">
+    <div id="question-container">
+      <div id="question"></div>
+      <div id="options"></div>
+    </div>
+    <button id="prev-btn" onclick="prevQuestion()" style="display: none;">Previous</button>
+    <button id="next-btn" onclick="nextQuestion()">Next</button>
+    <div id="result" style="display: none;"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
